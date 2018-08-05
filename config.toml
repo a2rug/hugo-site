@@ -1,6 +1,5 @@
 languageCode = "en-us"
-title = "Ann Arbor R User Group"
-theme = "hyde-y"
+theme = "hyde-hyde"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -8,43 +7,28 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
-
-[taxonomies]
-    tag = "tags"
-
-
 [params]
+    author = "Author"
+    title = "Ann Arbor R User Group"
     description = "A website built through Hugo and blogdown."
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
 
-    # specific to theme hyde-y
-    sidebar = "left"
-    brand = "A2RUG"
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-    # Sidebar social links.
+[params.social]
     github = "a2rug"
     twitter = "annarborrusers"
+    meetup = "https://www.meetup.com/Ann-Arbor-R-User-Group/"  # doesn't work
+    email = "AnnArborRUserGroup@gmail.com"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/post/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
