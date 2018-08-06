@@ -1,15 +1,16 @@
 languageCode = "en-us"
-theme = "hyde-hyde"
+theme = "kiss"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+title = "Ann Arbor R User Group"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [params]
     author = "Author"
-    title = "Ann Arbor R User Group"
     description = "A website built through Hugo and blogdown."
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
@@ -19,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params.social]
     github = "a2rug"
     twitter = "annarborrusers"
-    meetup = "https://www.meetup.com/Ann-Arbor-R-User-Group/"  # doesn't work
+    #meetup = "https://www.meetup.com/Ann-Arbor-R-User-Group/"  # doesn't work
     email = "AnnArborRUserGroup@gmail.com"
 
 [[menu.main]]
