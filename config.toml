@@ -20,7 +20,7 @@ title = "Ann Arbor R User Group"
 [params.social]
     github = "a2rug"
     twitter = "annarborrusers"
-    #meetup = "https://www.meetup.com/Ann-Arbor-R-User-Group/"  # doesn't work
+    meetup = "Ann-Arbor-R-User-Group"
     email = "AnnArborRUserGroup@gmail.com"
 
 [[menu.main]]
