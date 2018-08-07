@@ -23,13 +23,16 @@ title = "Ann Arbor R User Group"
     meetup = "Ann-Arbor-R-User-Group"
     email = "AnnArborRUserGroup@gmail.com"
 
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/post/"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+[menu]
+
+    [[menu.main]]
+        name = "About"
+        identifier = "about"
+        weight = 300
+        url = "/about/"
+
+    [[menu.main]]
+        name = "Posts"
+        identifier = "posts"
+        weight = 100
+        url = "/post/"
